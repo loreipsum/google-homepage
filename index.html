@@ -1,20 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
     <head>
+        <meta charset="utf-8">
+        <title>Google</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
     </head>
-<body>
-
-<div class="navbar">
-    <p>My first paragraph.</p>
-</div>
-<br>
-<div class="center">
-    <p>This is a paragraph in the "center" div.</p>
-    <img src="./images/googlelogo_color_272x92dp.png" alt="google logo">
-</div>
-<br>
-<div class="footer">
-</div>
-</body>
+    <body>
+        <header class="navbar">
+            <nav class="navbuttons">
+                <a id="chisiamo" href="https://about.google/">Chi siamo</a>
+                <a id="gstore" href="https://store.google.com/it/">Google Store</a>
+                <a id="gmail" href="https://mail.google.com/mail/">Gmail</a>
+                <a id="immagini" href="https://www.google.it/imghp">Immagini</a>
+                <a id="products" href="https://about.google/intl/it/products/">
+                    <img src="./images/apps_icon_24dp.svg" alt="google products icon"></a>
+            </nav> 
+        </header>
+        <br>
+        <div class="centerpage">
+            <p>This is a paragraph in the "centerpage" div.</p>
+            <img class="logo" src="./images/googlelogo_color_272x92dp.png" alt="google logo">
+            
+            <form action="https://www.google.com/search?q=google">
+                <input class="searchbar" type="text" placeholder="Search here">
+            <br><br>
+                <button type="submit">Cerca con Google</button>
+                <button type="submit">Mi sento fortunato</button>
+            </form>
+            <p>Google offerto in: <a href="https://www.google.com/setprefs?sig=0_K6LZEi22yvv_KGxYL0dwt0213WA%3D&hl=en&source=homepage&sa=X&ved=0ahUKEwje3JiJo9TxAhWP4IUKHRtbAC4Q2ZgBCA8">English</a></p>
+        </div>
+        <br>
+        <footer class="footer">
+            <p>ciao sono un paragrafo nel div footer</p>
+        </footer>
+    </body>
 </html>
