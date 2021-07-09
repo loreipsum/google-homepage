@@ -1,10 +1,16 @@
 /* Navbar section starts here*/
 
+body {
+    font-family: arial, sans-serif;
+}
+
 div {
     outline: 1px solid red;
 }
 
-
+.navbar {
+    outline: 1px solid blue;
+}
 
 .navbuttons {
     color: black;
@@ -13,6 +19,11 @@ div {
 
 p {
     font-size: 12px;
+}
+
+#avatar {
+    width: 33px;
+    border-radius: 50%;
 }
 
 a:link {
@@ -52,6 +63,7 @@ li a {
 /* Centerpage section starts here */
 
 .centerpage {
+    height: 500px;
     padding-bottom: 20px;
     display: flex;
     justify-content: center;
@@ -59,6 +71,7 @@ li a {
 
 .centerson {
     outline: 2px solid orange;
+    padding-top: 160px;
     /* spaces orange box from red box*/
 }
 
@@ -69,7 +82,7 @@ li a {
 }
 
 .searchbar {
-    width: 550px;
+    width: 570px;
     height: 35px;
     border-radius: 20px;
 }
@@ -80,6 +93,7 @@ button {
     box-shadow: 0 1px 1px rgba(0,0,0,.1);
     border: 1px solid #dadce0;
     color: #202124;
+    cursor: pointer;
 }
 
 .buttondiv {
