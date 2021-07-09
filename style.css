@@ -4,14 +4,6 @@ body {
     font-family: arial, sans-serif;
 }
 
-div {
-    outline: 1px solid red;
-}
-
-.navbar {
-    outline: 1px solid blue;
-}
-
 .navbuttons {
     color: black;
     font-size: 13px;
@@ -70,7 +62,6 @@ li a {
 }
 
 .centerson {
-    outline: 2px solid orange;
     padding-top: 160px;
     /* spaces orange box from red box*/
 }
@@ -97,19 +88,29 @@ button {
 }
 
 .buttondiv {
-    outline: 1px solid blue;
     padding: 15px;
     text-align:center;
 }
 
 .centerpar {
-    outline: 1px solid green;
     padding: 10px;
     text-align:center;
 }
 
-/* Footer section starts here*/
+/* Bottom navbar section starts here*/
 
-footer {
-    outline: 1px solid green;
-}
+.bottomnavbar {
+    background-color: rgb(236, 232, 232);
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .bottomnavbar a {
+    float: left;
+    color: #70757a;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+  }
