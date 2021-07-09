@@ -1,32 +1,18 @@
+/* Navbar section starts here*/
+
 div {
     outline: 1px solid red;
-  }
-
-
-footer {
-    outline: 1px solid green;
 }
 
-.logo {
-    margin: 30px;
-}
 
-.searchbar {
-    width: 550px;
-    height: 35px;
-    border-radius: 20px;
-}
 
-button {
-    padding: 8px;
+.navbuttons {
+    color: black;
+    font-size: 13px;
 }
 
 p {
     font-size: 12px;
-}
-
-.navbuttons {
-    color: #5f6368;
 }
 
 a:link {
@@ -43,4 +29,73 @@ a:hover {
   
 a:active {
     text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Centerpage section starts here */
+
+.centerpage {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.centerson {
+    outline: 2px solid orange;
+    /* spaces orange box from red box*/
+}
+
+.logo {
+    padding: 30px;
+    display: block; 
+    margin: auto;
+}
+
+.searchbar {
+    width: 550px;
+    height: 35px;
+    border-radius: 20px;
+}
+
+button {
+    padding: 8px;
+    background-color: #f8f9fa;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.buttondiv {
+    outline: 1px solid blue;
+    padding: 15px;
+    text-align:center;
+}
+
+.centerpar {
+    outline: 1px solid green;
+    padding: 10px;
+    text-align:center;
+}
+
+/* Footer section starts here*/
+
+footer {
+    outline: 1px solid green;
 }

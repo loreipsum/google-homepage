@@ -9,27 +9,31 @@
     </head>
     <body>
         <header class="navbar">
-            <nav class="navbuttons">
-                <a id="chisiamo" href="https://about.google/">Chi siamo</a>
-                <a id="gstore" href="https://store.google.com/it/">Google Store</a>
-                <a id="gmail" href="https://mail.google.com/mail/">Gmail</a>
-                <a id="immagini" href="https://www.google.it/imghp">Immagini</a>
-                <a id="products" href="https://about.google/intl/it/products/">
-                    <img src="./images/apps_icon_24dp.svg" alt="google products icon"></a>
-            </nav> 
+            <ul>
+                <li><a class="navbuttons" id="chisiamo" href="https://about.google/">Chi siamo</a></li>
+                <li><a class="navbuttons" id="gstore" href="https://store.google.com/it/">Google Store</a></li>
+                <li style="float:right"><a class="navbuttons" id="products" href="https://accounts.google.com/">Account</a></li>               
+                <li style="float:right"><a class="navbuttons" id="products" href="https://about.google/intl/it/products/">Products</a></li>
+                <li style="float:right"><a class="navbuttons" id="immagini" href="https://www.google.it/imghp">Immagini</a></li>
+                <li style="float:right"><a class="navbuttons" id="gmail" href="https://mail.google.com/mail/">Gmail</a></li>
+            </ul>
         </header>
         <br>
         <div class="centerpage">
-            <p>This is a paragraph in the "centerpage" div.</p>
-            <img class="logo" src="./images/googlelogo_color_272x92dp.png" alt="google logo">
-            
-            <form action="https://www.google.com/search?q=google">
-                <input class="searchbar" type="text" placeholder="Search here">
-            <br><br>
-                <button type="submit">Cerca con Google</button>
-                <button type="submit">Mi sento fortunato</button>
-            </form>
-            <p>Google offerto in: <a href="https://www.google.com/setprefs?sig=0_K6LZEi22yvv_KGxYL0dwt0213WA%3D&hl=en&source=homepage&sa=X&ved=0ahUKEwje3JiJo9TxAhWP4IUKHRtbAC4Q2ZgBCA8">English</a></p>
+            <div class="centerson">
+
+                <img class="logo" src="./images/googlelogo_color_272x92dp.png" alt="google logo">
+                
+                <form action="https://www.google.com/search?q=google">
+                    <input class="searchbar" type="text">
+                <br><br>
+                <div class="buttondiv">
+                    <button type="submit">Cerca con Google</button>
+                    <button type="submit">Mi sento fortunato</button>
+                </div>
+                </form>
+                <p class="centerpar">Google offerto in: <a href="https://www.google.com/setprefs?sig=0_K6LZEi22yvv_KGxYL0dwt0213WA%3D&hl=en&source=homepage&sa=X&ved=0ahUKEwje3JiJo9TxAhWP4IUKHRtbAC4Q2ZgBCA8">English</a></p>
+            </div>
         </div>
         <br>
         <footer class="footer">
