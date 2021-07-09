@@ -76,6 +76,9 @@ li a {
     width: 570px;
     height: 35px;
     border-radius: 20px;
+    background-image: url(https://cdn2.hubspot.net/hubfs/4004166/bioticresearch_website_assets/images/search_icon.png);
+    background-repeat: no-repeat;
+    background-position: left center;
 }
 
 button {
