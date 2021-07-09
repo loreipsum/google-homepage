@@ -105,12 +105,20 @@ button {
     position: fixed;
     bottom: 0;
     width: 100%;
-  }
+}
 
-  .bottomnavbar a {
+.bottomnavbar a {
     float: left;
     color: #70757a;
     text-align: center;
     text-decoration: none;
     font-size: 14px;
-  }
+}
+
+.bottomnavbar a:hover {
+    text-decoration: underline;
+}
+
+.bottomnavbar a:visited {
+    text-decoration: none;
+}
